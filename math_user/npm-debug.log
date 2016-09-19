@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'pzchamp1_math_example' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of C:\Users\user\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\user\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'pzchamp1_math_example', null ]
+7 verbose cache add spec pzchamp1_math_example
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'pzchamp1_math_example',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'pzchamp1_math_example',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed pzchamp1_math_example@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for pzchamp1_math_example
+11 info addNameTag [ 'pzchamp1_math_example', 'latest' ]
+12 silly mapToRegistry name pzchamp1_math_example
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'pzchamp1_math_example',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'pzchamp1_math_example',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/pzchamp1_math_example
+17 verbose addNameTag registry:https://registry.npmjs.org/pzchamp1_math_example not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/pzchamp1_math_example
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 9:31:47 PM
+21 verbose request using bearer token for auth
+22 verbose request id 73b4ea970d3781f4
+23 verbose etag "CRNVNO2UXG851FK352PG9KSBL"
+24 http request GET https://registry.npmjs.org/pzchamp1_math_example
+25 http 304 https://registry.npmjs.org/pzchamp1_math_example
+26 verbose headers { 'cache-control': 'max-age=300',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   date: 'Mon, 19 Sep 2016 18:31:50 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-ams4146-AMS',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1474309910.246094,VS0,VE390',
+26 verbose headers   vary: 'Accept-Encoding' }
+27 silly get cb [ 304,
+27 silly get   { 'cache-control': 'max-age=300',
+27 silly get     'accept-ranges': 'bytes',
+27 silly get     date: 'Mon, 19 Sep 2016 18:31:50 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-ams4146-AMS',
+27 silly get     'x-cache': 'MISS',
+27 silly get     'x-cache-hits': '0',
+27 silly get     'x-timer': 'S1474309910.246094,VS0,VE390',
+27 silly get     vary: 'Accept-Encoding' } ]
+28 verbose etag https://registry.npmjs.org/pzchamp1_math_example from cache
+29 verbose get saving pzchamp1_math_example to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\pzchamp1_math_example\.cache.json
+30 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+31 silly addNameTag next cb for pzchamp1_math_example with tag latest
+32 silly addNamed pzchamp1_math_example@1.0.0
+33 verbose addNamed "1.0.0" is a plain semver version for pzchamp1_math_example
+34 silly cache afterAdd pzchamp1_math_example@1.0.0
+35 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\pzchamp1_math_example\1.0.0\package\package.json not in flight; writing
+36 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+37 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\pzchamp1_math_example\1.0.0\package\package.json written
+38 silly install resolved [ { name: 'pzchamp1_math_example',
+38 silly install resolved     version: '1.0.0',
+38 silly install resolved     description: 'An example of creating a package',
+38 silly install resolved     main: 'main.js',
+38 silly install resolved     bin: { math_example: 'main.js' },
+38 silly install resolved     scripts: { test: 'echo \\"Error: no test specified\\" && exit 1' },
+38 silly install resolved     keywords:
+38 silly install resolved      [ 'math',
+38 silly install resolved        'example',
+38 silly install resolved        'addition',
+38 silly install resolved        'subtraction',
+38 silly install resolved        'division',
+38 silly install resolved        'fibonacci' ],
+38 silly install resolved     author: { name: 'Patrick Young PZ' },
+38 silly install resolved     license: 'ISC',
+38 silly install resolved     readme: 'math_example package\r\n====================\r\nThe following functions are available in the math_example package.\r\n- **addition** Adds two numbers and returns the result.\r\n- **subtraction** Subtracts the second number from the first and returns the result.\r\n- **multiplication** Multiplies two numbers and returns the result.\r\n- **division** Divides the first number by the second number and returns the result.\r\n- **fibonacci** Applies the fibonacci sequence count times and returns the result.',
+38 silly install resolved     readmeFilename: 'README.md',
+38 silly install resolved     _id: 'pzchamp1_math_example@1.0.0',
+38 silly install resolved     _shasum: 'f1d7c7317e953cc7bdf5ed4b67a49ccf4eeaad60',
+38 silly install resolved     _from: 'pzchamp1_math_example@latest' } ]
+39 info install pzchamp1_math_example@1.0.0 into C:\Users\user\AppData\Roaming\npm
+40 info installOne pzchamp1_math_example@1.0.0
+41 verbose installOne of pzchamp1_math_example to C:\Users\user\AppData\Roaming\npm not in flight; installing
+42 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+43 verbose lock using C:\Users\user\AppData\Roaming\npm-cache\_locks\pzchamp1-math-example-c4130eadddbc4e28.lock for C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+44 silly install write writing pzchamp1_math_example 1.0.0 to C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+45 verbose unbuild node_modules\pzchamp1_math_example
+46 silly gentlyRm C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example is being purged from base C:\Users\user\AppData\Roaming\npm
+47 verbose gentlyRm don't care about contents; nuking C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+48 verbose tar unpack C:\Users\user\AppData\Roaming\npm-cache\pzchamp1_math_example\1.0.0\package.tgz
+49 verbose tar unpacking to C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+50 silly gentlyRm C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example is being purged
+51 verbose gentlyRm don't care about contents; nuking C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+52 silly gunzTarPerm modes [ '777', '666' ]
+53 silly gunzTarPerm extractEntry package.json
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm extractEntry bin/main.js
+56 silly gunzTarPerm extractEntry lib/advanced_math.js
+57 silly gunzTarPerm extractEntry lib/call_couter.js
+58 silly gunzTarPerm extractEntry lib/simple_math.js
+59 verbose write writing to C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example\package.json
+60 info preinstall pzchamp1_math_example@1.0.0
+61 verbose readDependencies loading dependencies from C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example\package.json
+62 verbose readDependencies loading dependencies from C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example\package.json
+63 silly install resolved []
+64 verbose about to build C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+65 info build C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+66 info linkStuff pzchamp1_math_example@1.0.0
+67 silly linkStuff pzchamp1_math_example@1.0.0 has C:\Users\user\AppData\Roaming\npm\node_modules as its parent node_modules
+68 silly linkStuff pzchamp1_math_example@1.0.0 is part of a global install
+69 silly linkStuff pzchamp1_math_example@1.0.0 is installed into a global node_modules
+70 silly linkStuff pzchamp1_math_example@1.0.0 is installed into the top-level global node_modules
+71 verbose linkBins pzchamp1_math_example@1.0.0
+72 verbose link bins [ { math_example: 'main.js' },
+72 verbose link bins   'C:\\Users\\user\\AppData\\Roaming\\npm',
+72 verbose link bins   true ]
+73 verbose linkMans pzchamp1_math_example@1.0.0
+74 verbose rebuildBundles pzchamp1_math_example@1.0.0
+75 verbose unlock done using C:\Users\user\AppData\Roaming\npm-cache\_locks\pzchamp1-math-example-c4130eadddbc4e28.lock for C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+76 verbose stack Error: ENOENT: no such file or directory, chmod 'C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example\main.js'
+76 verbose stack     at Error (native)
+77 verbose cwd c:\NodeSamples\math_user
+78 error Windows_NT 6.1.7601
+79 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "pzchamp1_math_example"
+80 error node v4.5.0
+81 error npm  v2.15.9
+82 error path C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example\main.js
+83 error code ENOENT
+84 error errno -4058
+85 error syscall chmod
+86 error enoent ENOENT: no such file or directory, chmod 'C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example\main.js'
+86 error enoent This is most likely not a problem with npm itself
+86 error enoent and is related to npm not being able to find a file.
+87 verbose exit [ -4058, true ]
+88 verbose unbuild node_modules\pzchamp1_math_example
+89 info preuninstall pzchamp1_math_example@1.0.0
+90 info uninstall pzchamp1_math_example@1.0.0
+91 verbose unbuild rmStuff pzchamp1_math_example@1.0.0 from C:\Users\user\AppData\Roaming\npm\node_modules
+92 silly gentlyRm C:\Users\user\AppData\Roaming\npm\math_example.cmd is being gently removed
+93 silly gentlyRm verifying C:\Users\user\AppData\Roaming\npm is an npm working directory
+94 silly gentlyRm containing path C:\Users\user\AppData\Roaming\npm is under npm's control, in C:\Users\user\AppData\Roaming\npm
+95 silly gentlyRm deletion target C:\Users\user\AppData\Roaming\npm\math_example.cmd is under C:\Users\user\AppData\Roaming\npm
+96 verbose gentlyRm vacuuming from C:\Users\user\AppData\Roaming\npm\math_example.cmd up to C:\Users\user\AppData\Roaming\npm
+97 silly gentlyRm C:\Users\user\AppData\Roaming\npm\math_example is being gently removed
+98 silly gentlyRm verifying C:\Users\user\AppData\Roaming\npm is an npm working directory
+99 silly gentlyRm containing path C:\Users\user\AppData\Roaming\npm is under npm's control, in C:\Users\user\AppData\Roaming\npm
+100 silly gentlyRm deletion target C:\Users\user\AppData\Roaming\npm\math_example is under C:\Users\user\AppData\Roaming\npm
+101 verbose gentlyRm vacuuming from C:\Users\user\AppData\Roaming\npm\math_example up to C:\Users\user\AppData\Roaming\npm
+102 info postuninstall pzchamp1_math_example@1.0.0
+103 silly gentlyRm C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example is being purged from base C:\Users\user\AppData\Roaming\npm
+104 verbose gentlyRm don't care about contents; nuking C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+105 silly vacuum-fs purging C:\Users\user\AppData\Roaming\npm\node_modules\pzchamp1_math_example
+106 silly vacuum-fs removing C:\Users\user\AppData\Roaming\npm\node_modules
+107 silly vacuum-fs finished vacuuming up to C:\Users\user\AppData\Roaming\npm

@@ -1,0 +1,22 @@
+{
+  "name": "pzchamp1_math_example",
+  "version": "1.0.0",
+  "description": "An example of creating a package",
+  "main": "main.js",
+  "bin": {
+    "math_example": "main.js"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "example",
+    "addition",
+    "subtraction",
+    "division",
+    "fibonacci"
+  ],
+  "author": "Patrick Young PZ",
+  "license": "ISC"
+}
